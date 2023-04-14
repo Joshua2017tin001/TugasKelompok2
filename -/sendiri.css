@@ -1,0 +1,66 @@
+@font-face{
+	font-family:'Walt Disney Script v4.1'; 
+	src:url(font/Walt_Disney_Script.ttf);
+}
+.walt
+{
+	font-family:'Walt Disney Script v4.1';
+}
+.brtsblack
+{
+	border: black thin solid;
+}
+.clblack
+{
+	color:black;
+}
+body
+{
+	background-color:black;
+}
+.bggrey
+{
+	background-color:grey;
+}
+.bgblack
+{
+	background-color:black;
+}
+.bgorange
+{
+	background-color:orange;
+}
+.clwhite
+{
+	color:white;
+}
+.clorange
+{
+	color:orange;
+}
+.brdbblack
+{
+	border: double black;	
+}
+.brtsorange
+{
+	border: thin solid orange;	
+}
+div ul li a:hover
+{
+	border:black thin solid;
+	color:black;
+	background-color:orange;
+}
+#readm:hover
+{
+	color:white;
+}
+.brtswhite
+{
+	border: white thin solid;
+}
+body
+{
+	background-image:url(gambar/backgroundz.jpg);
+}

@@ -1,0 +1,1 @@
+<footer class="text-center bgorange brtsblack">Design By Adianto. All Right Reserved. Thanks To ....</footer>

@@ -1,0 +1,1 @@
+<p>Setelah pesanan kami terima.<br>Kami akan mengirimkan nomor rekening kami.<br>Silahkan transfer ke nomor rekening kami.<br>dan kirimkan bukti transfer melalui chat ke Line / Instagram <br>beserta nomor pesanan anda.</p>
