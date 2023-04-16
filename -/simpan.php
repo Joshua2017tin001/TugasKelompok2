@@ -20,7 +20,7 @@
 	}
 	else
 	{
-		echo "Connected successfully";	
+		// echo "Connected successfully";	
 	}
 	$sql = "SELECT * FROM tblogin WHERE username = '$username' AND pass = '$pass'";
 	$rows = $conn->query($sql);
@@ -37,7 +37,7 @@
 	else
 	{
 		//echo "ID tak terdaftar";
-		header("Location:tdkt.php");
+		 header("Location:tdkt.php");
 	}
 	$conn->close();
 ?>
