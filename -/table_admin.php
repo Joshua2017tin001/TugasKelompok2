@@ -55,7 +55,7 @@
     	<div class="row">
         	<div class="col-lg-3 col-12">
             	<div class="col-12 d-flex flex-row flex-wrap bgorange">
-                    <!-- <h1 class="walt w-100">Welcome, <?php echo $_SESSION['nama']; ?></h1> -->
+                    <h1 class="walt w-100">Welcome, <?php echo $_SESSION['name']; ?></h1>
                     <a href="create_table_admin.php" class="w-100 text-center"><button class="w-100 btn btn-primary">Tambah Produk</button></a>
                     <a href="lgout.php" class="w-100 text-center"><button class="w-100">Logout</button></a>
                	</div>
@@ -89,8 +89,8 @@
                         <img class="w-25" src="gambar/produk/<?php echo $value["foto_produk"]; ?>"/>
                     </td>
                     <td>
-                        <a href="" class="btn btn-warning">Ubah</a>
-                        <button class="btn btn-danger">Hapus</button>
+                        <a href="edit_table_produk.php?id=<?php echo $value["id"]; ?>" class="btn btn-warning">Ubah</a>
+                        <a href="hapus_table_produk.php?id=<?php echo $value["id"]; ?>"class="btn btn-danger" onclick="return confirm('Are you sure?')">Hapus</a>
                     </td>
                 </tr>
                 <?php } ?>
@@ -102,5 +102,7 @@
         	<?php include 'footer.php' ?>
         </div>
     </div>
+
 </body>
 </html>
+

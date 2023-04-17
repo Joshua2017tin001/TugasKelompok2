@@ -59,10 +59,10 @@
     	<div class="row">
         	<div class="col-lg-3 col-12">
             	<div class="col-12 d-flex flex-row flex-wrap bgorange">
-                    <!-- <h1 class="walt w-100">Welcome, <?php echo $_SESSION['nama']; ?></h1> -->
+                    <h1 class="walt w-100">Welcome, <?php echo $_SESSION['name']; ?></h1>
                     <a href="lgout.php" class="w-100 text-center"><button class="w-100">Logout</button></a>
                     <a href="order.php" class="w-100 text-center"><button class="w-100">Order</button></a>
-                    <a href="cekpsn.php" class="w-100 text-center"><button class="w-100">Cek Pesanan</button></a>
+                    <!-- <a href="cekpsn.php" class="w-100 text-center"><button class="w-100">Cek Pesanan</button></a> -->
                	</div>
             </div>
         	<div class="col-lg-9 col-12 d-flex flex-row flex-wrap justify-content-center">

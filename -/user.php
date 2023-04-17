@@ -33,7 +33,7 @@
                         	<h1>Login</h1>
                         </div>
                         <div class="col-4 clwhite">
-                            <h3 class="walt m-0 float-right">ID:</h3>
+                            <h3 class="walt m-0 float-right">Username:</h3>
                         </div>
                         <div class="col-8">
                             <input class="col-lg-6 col-md-9 col-12 p-0" type="text" name="user" required/>
@@ -60,7 +60,7 @@
                         	<h1>Daftar Baru</h1>
                         </div>
                         <div class="col-4 clwhite">
-                            <h3 class="walt m-0 float-right">ID:</h3>
+                            <h3 class="walt m-0 float-right">Username:</h3>
                         </div>
                         <div class="col-8">
                             <input class="col-lg-6 col-md-9 col-12 p-0" type="text" name="user" required/>

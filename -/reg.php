@@ -3,7 +3,7 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "";
-	$dbname = "phutea";
+	$dbname = "phutea2";
 
 	// Create connection
 	$conn = new mysqli($servername, $username, $password, $dbname);
@@ -36,7 +36,7 @@
 	}
 	else
 	{
-			$sql = "INSERT INTO tblogin VALUE('$user', '$pass', '$nama', '$tlp', '$mails');";
+			$sql = "INSERT INTO tblogin(username,pass,nama,telp,email) VALUE('$user', '$pass', '$nama', '$tlp', '$mails');";
 			if($conn->query($sql) == TRUE)
 			{
 				echo "Data update";
